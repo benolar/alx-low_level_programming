@@ -1,2 +1,2 @@
 #!/bin/bash
-echo 'gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -E $CFILE -o c' > 0-preprocessor ; chmod u+x 0-preprocessor ; ./0-preprocessor
+export CFILE="main.c" ; gcc -Wall -Werror -Wextra -pedantic -E $CFILE -o c
