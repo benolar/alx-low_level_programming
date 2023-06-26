@@ -2,10 +2,10 @@
 
 /**
  * main - Entry point
- *
+ * sizeof - gets the size of a variable type
  * C program to print the size of various types on the computer
  * it is compiled and run on
- * 
+ *
  * Return: returns 0 if successful. if not, 1
  * */
 
@@ -16,8 +16,6 @@ int main(void)
 	long int ld;
 	long long int lld;
 	float f;
-
-	/* sizeof - gets the size of a variable type */
 
 	printf("Size of a char: %lu byte(s)\n", sizeof(c));
 	printf("Size of an int: %lu byte(s)\n", sizeof(i));
