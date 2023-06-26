@@ -1,2 +1,2 @@
 #!/bin/bash
-export CFILE="100-main.c" && gcc -Wall -Werror -Wextra -pedantic -masm=intel -S $CFILE -o main
+export CFILE="100-main.c" && gcc -Wall -Werror -Wextra -pedantic -masm=intel -S $CFILE -o 100-main.s
