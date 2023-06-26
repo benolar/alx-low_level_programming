@@ -7,7 +7,7 @@
  * it is compiled and run on
  *
  * Return: returns 0 if successful. if not, 1
- * */
+ */
 
 int main(void)
 {
