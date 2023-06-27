@@ -15,7 +15,7 @@
 int main(void)
 {
 	int n;
-	int last_digit = n % 10;
+	int last_digit = 'n' % 10;
 	int nld = last_digit;
 
 	srand(time(0));
