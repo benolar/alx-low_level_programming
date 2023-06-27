@@ -19,11 +19,11 @@ int main(void)
 	char cl = 'A';
 
 	for (ch = 'a'; ch <= 'z'; ch++)
-
-	putchar(ch);
-
-	for (cl = 'A'; cl <= 'Z'; cl++)
 	
+	putchar(ch);
+	
+	for (cl = 'A'; cl <= 'Z'; cl++)
+		
 	putchar(cl);
 	putchar('\n');
 	return (0);
