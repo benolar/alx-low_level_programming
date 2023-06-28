@@ -17,7 +17,7 @@ int main(void)
 {
 	char ch = 'a';
 	int n = 0;
-	
+
 	while (n < 10)
 	{
 		putchar('0' + n);
