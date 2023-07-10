@@ -3,8 +3,7 @@
 /**
  * print_alphabet - Prints alphabet in lowercase
  * and adds a new line
- * void: Means null
- * 
+ *
  * write: Writes content from buffer to an open file
  *
  * Return: Returns null.
