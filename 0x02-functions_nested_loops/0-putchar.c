@@ -9,6 +9,5 @@
 
 int main(void)
 {
-	fwrite(1, "_putchar\n", 9);
-	return (0);
+	return (write(1, "_putchar\n", 9));
 }
