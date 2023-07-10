@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <unistd.h>
 
 /**
  * main - Entry point
@@ -9,5 +10,6 @@
 
 int main(void)
 {
-	return (write(1, "_putchar\n", 9));
+	write(1, "_putchar\n", 9);
+	return (0);
 }
