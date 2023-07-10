@@ -3,10 +3,9 @@
 /**
  * print_alphabet - Prints alphabet in lowercase
  * and adds a new line
+ * void: Means null
  *
  * write: Writes content from buffer to an open file
- *
- * Return: Returns null.
  */
 
 void print_alphabet(void)
@@ -19,5 +18,4 @@ void print_alphabet(void)
 		ch++;
 	}
 	write(1, "\n", 1);
-	return;
 }
