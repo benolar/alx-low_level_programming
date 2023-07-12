@@ -1,3 +1,12 @@
+/**
+ * int _isalpha(int c) - Checks for alphabetic character
+ * @c: Test variable
+ * if - executes a target statement if test expression is 
+ * true
+ *
+ * Return: Returns result if successful. If not, 1
+ */
+
 int _isalpha(int c)
 {
 	int result;

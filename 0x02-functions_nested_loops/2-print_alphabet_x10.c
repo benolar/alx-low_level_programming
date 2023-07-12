@@ -1,3 +1,15 @@
+#include <unistd.h>
+
+/**
+ * void print_alphabet_x10(void) - Prints
+ * lowercase alphabet 10 times
+ * void: Means null
+ * while - a loop that executes as long as 
+ * target argument is true
+ *
+ * write: Writes content from buffer to an open file
+ */
+
 void print_alphabet_x10(void)
 {
 	char ch;
@@ -8,11 +20,10 @@ void print_alphabet_x10(void)
 		ch = 'a';
 		while (ch <= 'z')
 		{
-			putchar(ch);
+			write(1, &ch, 1);
 			ch++;
 		}
-		putchar('n\n');
+		write(1, "\n", 1);
 		n++;
 	}
-	return;
 }
