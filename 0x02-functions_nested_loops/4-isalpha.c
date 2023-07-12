@@ -1,7 +1,7 @@
 /**
- * int _isalpha(int c) - Checks for alphabetic character
+ * _isalpha - Checks for alphabetic character
  * @c: Test variable
- * if - executes a target statement if test expression is 
+ * if - executes a target statement if test expression is
  * true
  *
  * Return: Returns result if successful. If not, 1

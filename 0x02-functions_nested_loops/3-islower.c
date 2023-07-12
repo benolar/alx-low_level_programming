@@ -1,5 +1,5 @@
 /**
- * int _islower(int c) - Checks for lowercase character
+ * _islower - Checks for lowercase character
  * @c: Test variable
  * if - executes target statement if test expression
  * is true

@@ -1,10 +1,9 @@
 #include <unistd.h>
 
 /**
- * void print_alphabet_x10(void) - Prints
- * lowercase alphabet 10 times
+ * print_alphabet_x10 - Prints lowercase alphabet 10 times
  * void: Means null
- * while - a loop that executes as long as 
+ * while - a loop that executes as long as
  * target argument is true
  *
  * write: Writes content from buffer to an open file
