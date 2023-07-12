@@ -23,7 +23,7 @@ int print_last_digit(int n)
 	}
 	else
 	{
-		ans = -(n) % 10;
+		ans = -(n % 10);
 		sprintf(ch, "%d", ans);
 	}
 	write(1, &ch, 1);
