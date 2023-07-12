@@ -1,7 +1,7 @@
 #include <unistd.h>
 
 /**
- * int _abs(int n) - Computes the absolute value of an integer
+ * _abs - Computes the absolute value of an integer
  * @n: Test variable
  * if...else if - executes a target statement if the test
  * expression is true
