@@ -13,7 +13,7 @@
 int print_sign(int n)
 {
 	int result;
-	
+
 	if (n > 0)
 	{
 		write(1, "+", 1);
