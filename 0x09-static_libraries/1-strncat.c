@@ -1,0 +1,3 @@
+void _strncat(void)
+{
+}
