@@ -1,0 +1,153 @@
+!<arch>
+0-isupper.o/    0           0     0     644     24        `
+int _isupper(int c)
+{
+}
+0-strcat.o/     0           0     0     644     41        `
+char *_strcat(char *dest, char *src)
+{
+}
+
+1-isdigit.o/    0           0     0     644     24        `
+int _isdigit(int c)
+{
+}
+1-strncat.o/    0           0     0     644     49        `
+char *_strncat(char *dest, char *src, int n)
+{
+}
+
+2-strlen.o/     0           0     0     644     25        `
+int _strlen(char *s)
+{
+}
+
+3-islower.o/    0           0     0     644     322       `
+/**
+ * _islower - Checks for lowercase character
+ * @c: Test variable
+ * if - executes target statement if test expression
+ * is true
+ *
+ * Return: Returns result if successful. If not, 1
+ */
+
+int _islower(int c)
+{
+	int result;
+
+	if (c >= 'a' && c <= 'z')
+	{
+		result = 1;
+	}
+	else
+	{
+		result = 0;
+	}
+	return (result);
+}
+3-strcmp.o/     0           0     0     644     36        `
+int _strcmp(char *s1, char *s2)
+{
+}
+4-isalpha.o/    0           0     0     644     350       `
+/**
+ * _isalpha - Checks for alphabetic character
+ * @c: Test variable
+ * if - executes a target statement if test expression is
+ * true
+ *
+ * Return: Returns result if successful. If not, 1
+ */
+
+int _isalpha(int c)
+{
+	int result;
+
+	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
+	{
+		result = 1;
+	}
+	else
+	{
+		result = 0;
+	}
+	return (result);
+}
+5-strstr.o/     0           0     0     644     48        `
+char *_strstr(char *haystack, char *needle)
+{
+}
+9-strcpy.o/     0           0     0     644     41        `
+char *_strcpy(char *dest, char *src)
+{
+}
+
+0-memset.o/     0           0     0     644     51        `
+char *_memset(char *s, char b, unsigned int n)
+{
+}
+
+100-atoi.o/     0           0     0     644     23        `
+int _atoi(char *s)
+{
+}
+
+1-memcpy.o/     0           0     0     644     57        `
+char *_memcpy(char *dest, char *src, unsigned int n)
+{
+}
+
+2-strchr.o/     0           0     0     644     35        `
+char *_strchr(char *s, char c)
+{
+}
+
+2-strncpy.o/    0           0     0     644     49        `
+char *_strncpy(char *dest, char *src, int n)
+{
+}
+
+3-puts.o/       0           0     0     644     24        `
+void _puts(char *s)
+{
+}
+3-strspn.o/     0           0     0     644     48        `
+unsigned int _strspn(char *s, char *accept)
+{
+}
+4-strpbrk.o/    0           0     0     644     42        `
+char *_strpbrk(char *s, char *accept)
+{
+}
+6-abs.o/        0           0     0     644     484       `
+#include <unistd.h>
+
+/**
+ * _abs - Computes the absolute value of an integer
+ * @n: Test variable
+ * if...else if - executes a target statement if the test
+ * expression is true
+ * write - writes content from buffer to an open file
+ *
+ * Return: Returns result if successful. If not, 1
+ */
+
+int _abs(int n)
+{
+	int result;
+
+	if (n >= 0)
+	{
+		result = n;
+	}
+	else if (n < 0)
+	{
+		result = (-1) * n;
+	}
+	else
+	{
+		result = write(1, "Input is not an integer", 23);
+	}
+	return (result);
+}
