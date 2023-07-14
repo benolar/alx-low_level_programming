@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <limits.h>
 
@@ -8,7 +9,7 @@
 
 void *malloc_checked(unsigned int b)
 {
-	unsigned int rs;
+	unsigned int *rs;
 	
 	rs = malloc(b);
 }
