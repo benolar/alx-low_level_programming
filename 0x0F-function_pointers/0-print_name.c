@@ -1,7 +1,7 @@
 /**
  * print_name - prints a name
  * @name: name of a person
- * @f - function pointer
+ * @f: function pointer
  *
  * Return: Nothing.
  */
